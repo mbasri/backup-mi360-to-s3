@@ -22,7 +22,6 @@ terraform destroy
 
 ## Dependencies of the infrastructure
 
-* This project is based on the output of the [global infrastructure project](https://github.com/sensorgraph/infra) via the data block `terraform_remote_state`
 * The project is built with the [v0.12.12](https://releases.hashicorp.com/terraform/) of Terraform
 
 ## Inputs

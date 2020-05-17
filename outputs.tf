@@ -4,13 +4,13 @@ output "bucket_name" {
 }
 
 output "lambda_arn" {
-    value       = aws_lambda_function.main.arn
-    description = "Lambda ARN"
+  value       = aws_lambda_function.main.arn
+  description = "Lambda ARN"
 }
 
 output "sqs_url" {
-    value       = aws_sqs_queue.main.id
-    description = "SQS URL"
+  value       = aws_sqs_queue.main.id
+  description = "SQS URL"
 }
 
 output "api_path" {
