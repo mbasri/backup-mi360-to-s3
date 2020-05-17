@@ -1,0 +1,10 @@
+# Terraform
+terraform.tfstate*
+.terraform*
+*-plan
+
+# Archive
+*s3-storage.zip
+
+# Secret
+*.pem
